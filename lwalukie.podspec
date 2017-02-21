@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lwalukie/lwalukie'
+  s.homepage         = 'https://github.com/lwalukie/Timer.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lwalukie' => 'lwalukie@gmail.com' }
-  s.source           = { :git => 'https://github.com/lwalukie/lwalukie.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/lwalukie/Timer.git'}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ s.dependency 'AWSDynamoDB', '~> 2.5.0'
+
 end

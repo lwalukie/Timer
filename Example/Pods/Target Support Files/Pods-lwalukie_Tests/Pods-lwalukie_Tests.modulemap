@@ -1,0 +1,6 @@
+framework module Pods_lwalukie_Tests {
+  umbrella header "Pods-lwalukie_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

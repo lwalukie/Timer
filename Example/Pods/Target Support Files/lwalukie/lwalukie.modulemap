@@ -1,0 +1,6 @@
+framework module lwalukie {
+  umbrella header "lwalukie-umbrella.h"
+
+  export *
+  module * { export * }
+}

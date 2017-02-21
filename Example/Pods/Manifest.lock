@@ -1,0 +1,16 @@
+PODS:
+  - lwalukie (0.1.0)
+
+DEPENDENCIES:
+  - lwalukie (from `../`)
+
+EXTERNAL SOURCES:
+  lwalukie:
+    :path: ../
+
+SPEC CHECKSUMS:
+  lwalukie: b541085f553500490252acf5cef892649534567c
+
+PODFILE CHECKSUM: 8b95132333e1d121ac4355c8be1953569566385e
+
+COCOAPODS: 1.1.1
